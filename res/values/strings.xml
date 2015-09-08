@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Jamify</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main">Jamify</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_jam">Jam Mode: Rock On!</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_learn">LearnActivity</string>
+    <string name="title_activity_choose_learn">ChooseLearnActivity</string>
+    <string name="title_activity_song_comparison">SongComparisonActivity</string>
+	<string name="song_comparison">Scroll sidewards to analyze your performance</string>
+    <string name="title_activity_social">SocialActivity</string>
+</resources>

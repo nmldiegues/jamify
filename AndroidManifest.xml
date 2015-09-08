@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pt.trycatch.jamify"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="pt.trycatch.jamify.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pt.trycatch.jamify.JamActivity"
+            android:label="@string/title_activity_jam"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pt.trycatch.jamify.TestActivity"
+            android:label="@string/title_activity_test"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pt.trycatch.jamify.MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pt.trycatch.jamify.LearnActivity"
+            android:label="Time to play!"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="pt.trycatch.jamify.ChooseLearnActivity"
+            android:label="Choose the Music to Learn" >
+        </activity>
+        <activity
+            android:name="pt.trycatch.jamify.SocialActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Check Out Your Friends"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="pt.trycatch.jamify.SongComparisonActivity"
+            android:label="Check your performance results" >
+        </activity>
+    </application>
+
+</manifest>
